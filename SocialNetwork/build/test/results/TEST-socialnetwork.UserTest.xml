@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Jamies-MacBook-Pro.local" name="socialnetwork.UserTest" skipped="0" tests="1" time="0.069" timestamp="2016-04-16T18:02:05">
+<testsuite errors="0" failures="0" hostname="Jamies-MacBook-Pro.local" name="socialnetwork.UserTest" skipped="0" tests="1" time="0.09" timestamp="2016-04-17T14:31:36">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="nb.wait.for.caches" value="true" />
@@ -39,7 +39,7 @@
     <property name="user.name" value="Jamie" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner socialnetwork.UserTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/test/results/TEST-socialnetwork.UserTest.xml crashfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junitvmwatcher942442314620119118.properties propsfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junit3225378191245791667.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner socialnetwork.UserTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/test/results/TEST-socialnetwork.UserTest.xml crashfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junitvmwatcher7279289515713540054.properties propsfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junit1513120752190844197.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />

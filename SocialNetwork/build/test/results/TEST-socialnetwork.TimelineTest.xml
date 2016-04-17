@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Jamies-MacBook-Pro.local" name="socialnetwork.TimelineTest" skipped="0" tests="1" time="0.076" timestamp="2016-04-16T18:02:05">
+<testsuite errors="0" failures="1" hostname="Jamies-MacBook-Pro.local" name="socialnetwork.TimelineTest" skipped="0" tests="1" time="0.092" timestamp="2016-04-17T14:31:35">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="nb.wait.for.caches" value="true" />
@@ -39,7 +39,7 @@
     <property name="user.name" value="Jamie" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner socialnetwork.TimelineTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/test/results/TEST-socialnetwork.TimelineTest.xml crashfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junitvmwatcher3534139847121049357.properties propsfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junit5652606458802360537.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner socialnetwork.TimelineTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/test/results/TEST-socialnetwork.TimelineTest.xml crashfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junitvmwatcher4464095783169954703.properties propsfile=/Users/Jamie/Documents/tech-tests/java/the-java-network/SocialNetwork/build/junit7793865562482287750.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -307,9 +307,9 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
   </properties>
-  <testcase classname="socialnetwork.TimelineTest" name="testSomeMethod" time="0.006">
+  <testcase classname="socialnetwork.TimelineTest" name="testSomeMethod" time="0.01">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at socialnetwork.TimelineTest.testSomeMethod(TimelineTest.java:43)
+	at socialnetwork.TimelineTest.testSomeMethod(TimelineTest.java:39)
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
