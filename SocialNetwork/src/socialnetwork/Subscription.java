@@ -23,7 +23,6 @@ public class Subscription {
     public String readSubscriptions(String name) {
         String aggregatedSubscribers = "";
         for (int i = 0; i < subscriptions.get(name).size(); i++) {
-            int postNumber = (i + 1);
             aggregatedSubscribers = aggregatedSubscribers + subscriptions.get(name).get(i) + "\n";
         }
         return aggregatedSubscribers;

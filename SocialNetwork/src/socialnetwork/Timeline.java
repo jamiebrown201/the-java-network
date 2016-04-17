@@ -11,6 +11,7 @@ public class Timeline {
     
     public Timeline() {
         posts = new HashMap<String,ArrayList<String>>();
+        System.out.println(posts);
     }
     
     

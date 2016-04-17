@@ -12,22 +12,19 @@ import static org.junit.Assert.*;
 public class UserTest {
     
     
-//    User testUser;
-//    
-//    @Before
-//    public void setUp() {
-//       testUser = new User("test");
-//       System.out.println("@Before: setUp");
-//    }
-//    
-//
-//    /**
-//     * Test of main method, of class User.
-//     */
-//    @Test
-//    public void username() {
-//        System.out.println("username");
-//        assertEquals("test", testUser.getName());
-//    }
+    User testUser;
+    
+    @Before
+    public void setUp() {
+       testUser = new User("test");
+       System.out.println("@Before: setUp");
+    }
+    
+
+    @Test
+    public void getName() {
+        System.out.println("username");
+        assertEquals("test", testUser.getName());
+    }
     
 }
