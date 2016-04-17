@@ -1,42 +1,30 @@
 
 package socialnetwork;
 
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Jamie
- */
+
 public class TimelineTest {
     
-    public TimelineTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
+    Timeline timeline;
+    String name;
     
     @Before
     public void setUp() {
+        timeline = new Timeline();
+        timeline.newPost("test new post", "testing");
     }
     
-    @After
-    public void tearDown() {
-    }
 
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testNewPost() {
+        assertEquals("test new post", timeline.posts.get("testing").get(0));     
+    }
+    
+    public void testReadPost() {
+        assertEquals("test new post", timeline.readPosts("testing"));     
     }
     
 }

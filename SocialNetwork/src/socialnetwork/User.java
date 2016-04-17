@@ -15,7 +15,7 @@ public class User {
     
     public User(String customName){
         name = customName;
-        timeline = new Timeline(customName);
+        timeline = new Timeline();
         subscription = new Subscription();
     }
     

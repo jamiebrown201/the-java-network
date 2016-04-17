@@ -9,7 +9,7 @@ public class Timeline {
     String name;
     HashMap<String,ArrayList<String>> posts; 
     
-    public Timeline(String customName) {
+    public Timeline() {
         posts = new HashMap<String,ArrayList<String>>();
     }
     
